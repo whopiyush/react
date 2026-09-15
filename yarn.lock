@@ -1597,6 +1597,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cookie@npm:^1.0.1":
+  version: 1.1.1
+  resolution: "cookie@npm:1.1.1"
+  checksum: e40c4ff817a73ec0a41413654ca9a71e6207bd6e511151bb1d307aef2903eb59771127a85474afe0e12a8982804f7b03cce0bda798b55c306aca9608b4b9acab
+  languageName: node
+  linkType: hard
+
 "core-js-pure@npm:^3.25.1":
   version: 3.27.0
   resolution: "core-js-pure@npm:3.27.0"
@@ -4598,7 +4605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:6.6.1, react-router@npm:^6.6.1":
+"react-router@npm:6.6.1":
   version: 6.6.1
   resolution: "react-router@npm:6.6.1"
   dependencies:
@@ -4606,6 +4613,22 @@ __metadata:
   peerDependencies:
     react: ">=16.8"
   checksum: 58f0ad29123e2854d547915a1ae1cc2687504e396d71db50fe8f36ad733d7940a2914d45868a8478b6138536e119fa5e3303212b7c7b1d81d80cd5b0bbefdfa2
+  languageName: node
+  linkType: hard
+
+"react-router@npm:^7.0.0":
+  version: 7.18.4
+  resolution: "react-router@npm:7.18.4"
+  dependencies:
+    cookie: ^1.0.1
+    set-cookie-parser: ^2.6.0
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+  checksum: c129154eb81260427351037baf2162d27a706a177229336365955099a9b5fd9f3c3a2b3b5d6d3e13b8ae1b23e82b8d50d56f3d1fc3f68ca212e205d09de0f08f
   languageName: node
   linkType: hard
 
@@ -4938,6 +4961,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"set-cookie-parser@npm:^2.6.0":
+  version: 2.7.2
+  resolution: "set-cookie-parser@npm:2.7.2"
+  checksum: 9e1b09e7184079c81f9ba4d2db3222854adf4e6e4fe73982388367649386a93e7f9b979333ddeba22610706def93c2478f34c3324fe223528cb2c4c879a2c2d3
+  languageName: node
+  linkType: hard
+
 "shebang-command@npm:^2.0.0":
   version: 2.0.0
   resolution: "shebang-command@npm:2.0.0"
@@ -5000,7 +5030,7 @@ __metadata:
     prettier: ^2.8.1
     react: ^18.2.0
     react-dom: ^18.2.0
-    react-router: ^6.6.1
+    react-router: ^7.0.0
     react-router-dom: ^6.6.1
     typescript: ^4.9.3
     vite: ^4.0.0
